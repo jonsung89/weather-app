@@ -1,0 +1,27 @@
+
+.right-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 80vh;
+  width: 50%;
+  float: right;
+  position: relative;
+  background-color: rgb(48, 54, 61);
+}
+
+.weather-form {
+  grid-row: 1;
+  padding: 8rem 0;
+}
+
+.weather-data {
+  grid-row: 2;
+  padding: 8rem;
+
+}
+
+.right-container h3 {
+  margin: 0;
+  font-size: 2rem;
+  color: #fff;
+}

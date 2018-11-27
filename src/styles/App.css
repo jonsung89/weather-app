@@ -1,0 +1,8 @@
+.app {
+  height: 80vh;
+  /* border: 1px solid #fff; */
+  margin: 10vh 20vh;
+  /* padding: 80px 150px; */
+  vertical-align: middle;
+  overflow: hidden;
+}

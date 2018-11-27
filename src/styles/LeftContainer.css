@@ -1,0 +1,40 @@
+.left-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 80vh;
+  width: 50%;
+  float: left;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+img {
+  opacity: 0.3;
+  position: absolute;
+  z-index: -1;
+
+}
+
+.header {
+  grid-row: 2 / 3;
+  padding: 2rem 6rem;
+}
+
+.header h1 {
+  font-size: 3.5rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+hr {
+  border: 0;
+  height: 3px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
+.header h4 {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.8;
+}

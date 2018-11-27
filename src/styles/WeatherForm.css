@@ -1,0 +1,31 @@
+.input {
+  width: 150px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid #8988DF;
+  padding: 5px 10px;
+  margin: 10px 10px;
+  font-size: 18px;
+  color: #e7e7e7;
+  caret-color: #8988DF;
+}
+input::placeholder{
+  color: #b8b8b8;
+}
+.get-weather {
+  padding: 10px 25px;
+  border: none;
+  border-radius: 3px;
+  background-color: #8988DF;
+  color: #fff;
+  font-size: 16px;
+  margin: 10px 10px;
+  transition: all .2s ease-in-out;
+}
+.get-weather:hover {
+  background-color: #DFB588;
+  cursor: pointer;
+}
+input:focus, button:focus {
+  outline: none;
+}
